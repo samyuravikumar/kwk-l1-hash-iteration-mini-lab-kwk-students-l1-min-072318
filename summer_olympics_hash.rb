@@ -10,7 +10,7 @@ end
 
 def add_a_key_value_pair
   new_hash=create_olympics_hash
-  new_hash[:Atlana] = "1996"
+  new_hash[:Atlanta] = "1996"
   new_hash
 end
 
