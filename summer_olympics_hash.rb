@@ -27,5 +27,5 @@ def iterate_through_keys
   new_hash = create_olympics_hash
   new_hash.each do |key, value|
     upcased_cities << key.to_s.capitalize
-    
+  end
 end
