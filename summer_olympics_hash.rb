@@ -24,6 +24,8 @@ end
 
 def iterate_through_keys
   upcased_cities = [ ]
-  # summer_olympics.each do |city, year|
+  new_hash = create_olympics_hash
+  new_hash.each do |key, value|
+    upcased_cities << key.to_s.capitalize
     
 end
