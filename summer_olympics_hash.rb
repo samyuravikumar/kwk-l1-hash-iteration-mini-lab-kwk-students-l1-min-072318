@@ -19,5 +19,7 @@ def iterate_through_hash
 end
 
 def iterate_through_keys
+  upcased_cities = [ ]
   summer_olympics.each do |city, year|
+    upc
 end
