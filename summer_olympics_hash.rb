@@ -17,7 +17,7 @@ end
 def iterate_through_hash
   new_hash = create_olympics_hash
   new_hash.each do |city, year|
-    return "The #{city} summer olympics took place in #{year}"
+    puts "The #{city} summer olympics took place in #{year}"
   end
 end
 
