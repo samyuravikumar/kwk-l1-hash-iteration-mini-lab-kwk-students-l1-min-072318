@@ -17,7 +17,7 @@ end
 def iterate_through_hash
   new_hash = create_olympics_hash
   new_hash.each do |key, value|
-    puts "The #{key} summer olympics took place in #{value}"
+    puts "The #{key} summer olympics took place in #{value}."
   end
 end
 
